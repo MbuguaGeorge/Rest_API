@@ -1,0 +1,21 @@
+api/movies
+    -retrieves all movies
+    -GET
+
+api/movies/<int:pk>
+    -retrieves a single movie specified by the id
+    -GET, PUT & DELETE
+    -for staff only
+
+api/users
+    -retrieves all users
+    -GET
+
+api/user/<int:pk>
+    -retrieves a specific user by id
+    -GET, PUT & DELETE
+    -for staff only
+
+api/token
+    -takes a user's username and password and returns a token
+    -POST
